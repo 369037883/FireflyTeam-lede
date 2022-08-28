@@ -12,11 +12,8 @@ on:
     - cron: 0 20 * * *
   release:
     types: [published]
-
 jobs:
-
   build_openwrt:
-
     name: Build OpenWrt firmware
 
     runs-on: ubuntu-latest
